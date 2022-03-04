@@ -58,4 +58,12 @@ def choose_first():
     if random.randint(0,1) == 0:
         return "Player 1"
     else:
-        return "Player 2"        
+        return "Player 2"       
+
+#To check whether empty space is available for player to play
+
+def space_check(board, position):
+     if board[position] == "":
+        return True
+     else:
+        return False         
