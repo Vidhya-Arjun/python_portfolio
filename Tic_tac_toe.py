@@ -1,5 +1,4 @@
 import random
-from re import X
 
 # Code for Setting up game's layout
 
